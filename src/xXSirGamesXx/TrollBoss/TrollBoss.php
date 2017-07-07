@@ -16,7 +16,7 @@ class TrollBoss extends PluginBase implements Listener {
 	const NO_PERM = "[TrollBossPE] You don't have permission to run this command!";
 		
 	public function onLoad() { 
-		$this->getLogger()->info(C::AQUA . "Loading TrollBossPE by xXSirButterXx.."); ]
+		$this->getLogger()->info(C::AQUA . "Loading TrollBossPE by xXSirButterXx.."); 
 	}
 	
 	public function onEnable() {  
