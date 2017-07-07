@@ -14,3 +14,6 @@ permissions:
   troll.cmd:
     default: op # true = anyone can use the command, false = no one can use the command and op = only opped players can use the command
     description: "All troll commands"
+  troll.cmd.help:
+    default: op
+    description: "TrollBoss command help"
