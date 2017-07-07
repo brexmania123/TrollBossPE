@@ -28,26 +28,6 @@ class TrollBoss extends PluginBase implements Listener {
 	}
 	public function onCommand(CommandSender $sender,Command $cmd,$label,array $args){
 		if($cmd->getName() == "trollboss"){
-			if($sender->hasPermissions("troll.cmd")){
-				$sender->sendMessage(self::PREFIX . "Please use /trollboss help <pagre number>");
-			}
-				if($args[0] === "help"){
-					if($sender->hasPermission("troll.cmd") || $sender->hasPermission("troll.cmd.help")){
-						if($args[1] === "1"){
-							$sender->sendMessage(self::HELP_TOPPER);
-							$sender->sendMessage("/trollboss help <help-number>");
-						}
-						elseif($args[1] === "2"){
-						       $sender->sendMessage(self::HELP_TOPPER);
-						}
-						       
-					}else{
-						$sender->sendMessage(self::NO_PERM);
-					}
-						
-				}
-		
-						
 		}
 	}
 }
