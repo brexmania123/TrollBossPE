@@ -2,7 +2,7 @@
 # TrollBossPE
 TrollBoss for Pocketmine
 
-# How do I use this?
+# How do I install this?
 - Download the latest phar from our [phars]() section. Then drop the plugin into your plugins folder
 
 
