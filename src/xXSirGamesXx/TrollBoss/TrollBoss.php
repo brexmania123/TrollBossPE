@@ -12,7 +12,7 @@ use pocketmine\command\CommandSender;
 
 class TrollBoss extends PluginBase implements Listener {
 	const PREFIX = "[TrollBossPE] "; //oops typo
-	const HELP_TOPPER = "======[TrollBosPE Help]======";
+	const HELP_TOPPER = "========[TrollBossPE Help]========";
 	const NO_PERM = "[TrollBossPE] You don't have permission to run this command!";
 		
 	public function onLoad() { 
