@@ -1,3 +1,4 @@
+![](https://github.com/xXSirGamesXx/TrollBossPE/blob/master/trollboss.png) 
 # ExamplePlugin
 Plugin skeleton for PocketMine-MP related server softwares
 
