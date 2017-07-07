@@ -4,7 +4,9 @@ namespace xXSirGamesXx\TrollBoss;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener
-use pocketmine\utils\TextFormat as C;	
+use pocketmine\utils\TextFormat as C;
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
 
 
 
@@ -20,5 +22,9 @@ class TrollBoss extends PluginBase implements Listener {
 	
 	public function onDisable() {
 		$this->getLogger()->info(C::AQUA . "TrollBossPE disabled"); 
+	}
+	public function onCommand(CommandSender $sender,Command $cmd,$label,array $args){
+		if($cmd->getName() == "trollboss"){
+		}
 	}
 }
