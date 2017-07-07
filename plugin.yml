@@ -2,7 +2,7 @@ name: TrollBossPE
 main: xXSirGamesXx\TrollBoss\TrollBoss
 api: 3.0.0-ALPHA6
 version: 1.0.0
-description: "Plugin skeleton"
+description: "Troll players"
 
 commands:
   trollboss:
